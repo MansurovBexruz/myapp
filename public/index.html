@@ -1,0 +1,114 @@
+ <!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Тёплые слова, открытки и пожелания ко Дню учителя — 1 октября." />
+    <meta name="theme-color" content="#fff9ef" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>С Днём учителя! — открытки и пожелания</title>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero" id="top">
+        <div class="hero-topline"><span class="topline-mark" aria-hidden="true">✳</span> ТЁПЛЫЕ СЛОВА ДЛЯ ТЕХ, КТО УЧИТ <span class="topline-mark" aria-hidden="true">✳</span></div>
+        <span class="hero-leaf hero-leaf-left" aria-hidden="true">✿</span>
+        <span class="hero-leaf hero-leaf-right" aria-hidden="true">❧</span>
+        <div class="hero-content">
+          <p class="hero-date"><span aria-hidden="true">✦</span> 1 октября · День учителя</p>
+          <h1>С Днём<br /><em>учителя!</em></h1>
+          <p class="hero-subtitle">Спасибо, что каждый день помогаете<br class="desktop-break" /> открывать мир и верить в свои силы.</p>
+          <a class="button button-light" href="#открытки">Сказать спасибо <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-stamp" aria-hidden="true"><span>С любовью</span><strong>♡</strong><span>вашим учителям</span></div>
+        <div class="hero-bottom" aria-hidden="true"><span>ЗНАНИЯ</span><span>ВДОХНОВЕНИЕ</span><span>БЛАГОДАРНОСТЬ</span></div>
+      </header>
+
+      <main>
+        <section class="section greetings-section" id="открытки" aria-labelledby="greetings-title">
+          <div class="section-heading">
+            <p class="eyebrow"><span aria-hidden="true">✳</span> МАЛЕНЬКИЕ ПИСЬМА С БОЛЬШОЙ БЛАГОДАРНОСТЬЮ</p>
+            <h2 id="greetings-title">Слова, которые <em>согревают</em></h2>
+            <p class="section-intro">Выберите открытку для любимого учителя — или просто вдохновитесь.</p>
+          </div>
+
+          <div class="greeting-grid">
+            <article class="greeting-card card-peach">
+              <div class="card-top"><span class="subject-icon" aria-hidden="true">✎</span><span class="card-number">01 / 04</span></div>
+              <p class="subject-label">УРОКИ СЛОВ</p>
+              <h3>Учителю русского языка</h3>
+              <p class="card-message">За то, что учите нас находить точные слова — и говорить ими о самом важном.</p>
+              <span class="card-flower" aria-hidden="true">✿</span>
+            </article>
+            <article class="greeting-card card-yellow">
+              <div class="card-top"><span class="subject-icon" aria-hidden="true">∑</span><span class="card-number">02 / 04</span></div>
+              <p class="subject-label">МИР ОТКРЫТИЙ</p>
+              <h3>Учителю математики</h3>
+              <p class="card-message">Пусть в вашей жизни всегда сходятся все слагаемые счастья, здоровья и вдохновения!</p>
+              <span class="card-flower" aria-hidden="true">✳</span>
+            </article>
+            <article class="greeting-card card-sage">
+              <div class="card-top"><span class="subject-icon" aria-hidden="true">⚗</span><span class="card-number">03 / 04</span></div>
+              <p class="subject-label">НАУКА И ЧУДЕСА</p>
+              <h3>Учителю естествознания</h3>
+              <p class="card-message">Спасибо, что превращаете любопытство в открытия, а каждый урок — в маленькое чудо.</p>
+              <span class="card-flower" aria-hidden="true">❋</span>
+            </article>
+            <article class="greeting-card card-lilac">
+              <div class="card-top"><span class="subject-icon" aria-hidden="true">♫</span><span class="card-number">04 / 04</span></div>
+              <p class="subject-label">ТВОРЧЕСКИЙ МИР</p>
+              <h3>Учителю музыки и искусства</h3>
+              <p class="card-message">Пусть каждый ваш день звучит красиво, а вдохновение никогда не берёт выходной!</p>
+              <span class="card-flower" aria-hidden="true">❀</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="interactive-section" aria-label="Интерактивные поздравления">
+          <div class="wish-panel">
+            <div class="panel-decoration" aria-hidden="true">❋</div>
+            <p class="eyebrow eyebrow-light">ЩЕПОТКА ВДОХНОВЕНИЯ</p>
+            <h2>Пожелание<br />на сегодня</h2>
+            <p class="wish-copy" id="wish-text" aria-live="polite">Нажмите на кнопку — и получите тёплые слова для учителя.</p>
+            <button class="button button-outline" id="wish-button" type="button">Получить случайное пожелание <span aria-hidden="true">↗</span></button>
+            <span class="wish-sparkle sparkle-one" aria-hidden="true">✦</span>
+            <span class="wish-sparkle sparkle-two" aria-hidden="true">✧</span>
+          </div>
+
+          <div class="ecard-panel">
+            <div class="ecard-heading">
+              <p class="eyebrow"><span aria-hidden="true">♡</span> ОТКРЫТКА ОТ ВСЕГО СЕРДЦА</p>
+              <h2>Добавьте <em>имя</em></h2>
+              <p>Пара слов — и поздравление готово.</p>
+            </div>
+            <form id="ecard-form" class="ecard-form">
+              <label for="teacher-name">Имя учителя</label>
+              <div class="input-row">
+                <input id="teacher-name" name="teacherName" type="text" maxlength="50" placeholder="Например, Анна Сергеевна" autocomplete="name" required />
+                <button class="button button-dark" type="submit">Создать открытку <span aria-hidden="true">→</span></button>
+              </div>
+              <p class="form-hint" id="form-hint">Мы бережно добавим имя в поздравление.</p>
+            </form>
+            <article class="created-card" id="created-card" aria-live="polite" hidden>
+              <div class="created-card-flower" aria-hidden="true">✿</div>
+              <p class="created-card-kicker">С ДНЁМ УЧИТЕЛЯ!</p>
+              <h3 id="created-card-title"></h3>
+              <p>Пусть каждый день приносит радость, благодарных учеников и новые поводы гордиться своим делом. Спасибо за ваше сердце и мудрость!</p>
+              <span class="created-card-sign">С теплом и благодарностью ♡</span>
+            </article>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="footer-mark" href="#top" aria-label="Наверх">✳</a>
+        <p>Спасибо, что делаете мир добрее и умнее.</p>
+        <span>С теплом · 1 октября</span>
+      </footer>
+    </div>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
